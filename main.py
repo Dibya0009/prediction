@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 # Load data
-data = pd.read_csv(r"C:\Users\dibya\Downloads\tips.csv")
+data = pd.read_csv("data/tips.csv")
 
 st.title("Interactive Tip Prediction")
 
